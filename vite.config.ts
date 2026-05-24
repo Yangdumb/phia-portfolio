@@ -1,8 +1,10 @@
+// @ts-ignore
 import { defineConfig } from 'vite'
 // @ts-ignore
 import { fileURLToPath } from 'url'
 // @ts-ignore
 import path from 'path'
+// @ts-ignore
 import react from '@vitejs/plugin-react'
 
 const __filename = fileURLToPath(import.meta.url)
