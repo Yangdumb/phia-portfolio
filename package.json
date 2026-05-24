@@ -2,21 +2,13 @@
   "name": "phia-portfolio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://Yangdumb.github.io/phia-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite": "^5.1.4"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^4.2.1",
-    "typescript": "^5.2.2"
+    "gh-pages": "^6.3.0"
   }
 }
